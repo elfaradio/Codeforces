@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int tc;
+    scanf("%d",&tc);
+    for(int k=1;k<=tc;k++)
+    {
+        int n;
+        scanf("%d",&n);
+       long long int fact =1;
+        for(int i=1;i<=n;i++)
+        {
+            fact = fact*i;
+        }
+        printf("%lld \n",fact);
+    }
+    return 0;
+}
